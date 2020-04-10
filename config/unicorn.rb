@@ -7,8 +7,8 @@ timeout ENV.fetch('UNICORN_WORKER_TIMEOUT', 64).to_i
 
 pid "/var/www/deploy/corona-vk/unicorn.pid"
 
-stderr_path "/var/www/deploy/log/unicorn.stderr.log"
-stdout_path "/var/www/deploy/log/unicorn.stdout.log"
+stderr_path "/var/www/deploy/corona-vk/log/unicorn.stderr.log"
+stdout_path "/var/www/deploy/corona-vk/log/unicorn.stdout.log"
 preload_app true
 
 GC.respond_to?(:copy_on_write_friendly=) and
