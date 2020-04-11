@@ -2,7 +2,8 @@
 
 rm -rf /var/www/deploy/corona-vk/unicorn.pid
 touch /var/www/deploy/corona-vk/unicorn.pid
+chmod +rw  /var/www/deploy/corona-vk/unicorn.pid
 
-bundle exec unicorn -E development -c /var/www/deploy/corona-vk/unicorn.pid &> /var/www/deploy/corona-vk/log/staypuft-output.log
+bundle exec unicorn -E development -c /var/www/deploy/corona-vk/unicorn.pid &> /var/www/deploy/corona-vk/log/corona-vk-output.log
 
 
