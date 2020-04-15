@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+.doomsday_clock {
+  width: 16%;
+  height: 10%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #4f812d;
+  background: black;
+  margin-inline-start: 83%;
+  font-size: 128%;
+  padding: 11px;
+  color: #0ffe01;
+}
